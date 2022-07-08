@@ -406,16 +406,18 @@ footer > p {
 
 #btt_topo_container{
     margin: 20px;
-
     bottom: 0;
     right: 0;
     position: fixed;
-
     border-radius: 50px;
     background-color: var(--blue);
     box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
     transition: all 0.125s ease-in-out;
-    
+    visibility: hidden;
+}
+
+#btt_topo_container.active{
+    visibility: visible;
 }
 
 #btt_topo_container > a {

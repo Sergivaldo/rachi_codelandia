@@ -1,15 +1,12 @@
-const btt_topo = document.getElementById("btt_topo_container")
+
 const btt_mobile = document.getElementById("btt_mobile")
 
 function mostrar_botao_topo(){
-    if(window.scrollY > 700){
-        btt_topo.style.opacity=1
-        btt_topo.style.visibility="visible"
-        
+    const btt_topo = document.getElementById("btt_topo_container")
+    if (window.scrollY > 800){
+        btt_topo.classList.add("active")
     }else{
-        btt_topo.style.opacity =0
-        btt_topo.style.visibility="hidden"
-        
+        btt_topo.classList.remove("active")
     }
 }
 
@@ -18,7 +15,7 @@ function toggle_menu(){
     nav.classList.toggle("active")
 }
 
+window.addEventListener('scroll',mostrar_botao_topo)
 
 btt_mobile.addEventListener('click',toggle_menu)
 
-window.addEventListener('scroll',mostrar_botao_topo)
