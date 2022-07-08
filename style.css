@@ -412,7 +412,7 @@ footer > p {
     border-radius: 50px;
     background-color: var(--blue);
     box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
-    transition: all 0.125s ease-in-out;
+    transition: 0.3s ease-in-out;
     visibility: hidden;
 }
 
@@ -557,7 +557,7 @@ footer > p {
         justify-content: center;
     }
 
-    main > div > section:nth-child(3) > div >div > div > button > img{
+    main > div > section:nth-child(3) > div >div > div > button > a> img{
         width: 98%;
     }
 
