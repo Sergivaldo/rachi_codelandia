@@ -14,6 +14,9 @@ Esse é um desafio da comunidade Codelândia do professor [Iuri Silva](https://g
 ### Rachi - versão mobile
 ![rachi - mobile](https://user-images.githubusercontent.com/72475500/177913426-f67e45ef-8e61-447f-bf87-d7a585889d0b.gif)
 
+#### Acesse o link a baixa para testar
+https://rachi-desafio-codel-ndia.vercel.app/
+
 ## Stack utilizada
 
 **Front-end:** CSS, HTML, JAVASCRIPT
